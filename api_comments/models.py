@@ -9,5 +9,4 @@ class Comment(models.Model):
     likes = models.IntegerField(default=0)
     image = models.URLField(blank=True)
 
-    def __str__(self):
-        return self.text
+
