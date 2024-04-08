@@ -15,7 +15,7 @@ Ensure you have Python installed on your system.
 Copy code
 6. `python manage.py runserver`
 7. The backend server will start running on http://localhost:8000/.
-8. In order to interact with the code go to http://localhost:8000/api/comments/
+8. In order to interact with the API go to http://localhost:8000/api/comments/
 9. API Endpoints
  - GET /comments/: List all comments.
  - POST /comments/: Add a new comment.
